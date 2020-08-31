@@ -4,5 +4,6 @@ module.exports = (req, res, next) => {
   } else {
     req.isAuth = false;
   }
+  console.log("auth_middleware from spl220");
   return next();
 };
